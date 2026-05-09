@@ -1,0 +1,45 @@
+name: 价格或套餐更新
+description: 反馈某个平台的价格、套餐、地区或政策变化
+title: "[价格更新] 平台名 / 地区 / 套餐名"
+labels: ["price-update", "needs-review"]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: 平台 / 产品
+      placeholder: 例如 ChatGPT、Netflix、Spotify
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: 地区
+      placeholder: 例如 US、HK、SG、JP、全球
+    validations:
+      required: true
+  - type: input
+    id: plan
+    attributes:
+      label: 套餐名
+      placeholder: 例如 Plus、Premium、Standard
+    validations:
+      required: true
+  - type: input
+    id: price
+    attributes:
+      label: 价格与币种
+      placeholder: 例如 以官网为准 / 19.99 USD / 具体请说明
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 来源链接
+      placeholder: 官方价格页或公开说明链接
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      placeholder: 是否含税、是否促销、是否年付、是否地区限定等

@@ -1,0 +1,32 @@
+name: Validate repository data
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 2 * * 1"
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate JSON files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          errors = []
+          for path in Path('.').rglob('*.json'):
+              try:
+                  json.loads(path.read_text(encoding='utf-8'))
+              except Exception as e:
+                  errors.append(f"{path}: {e}")
+          if errors:
+              print('\n'.join(errors))
+              raise SystemExit(1)
+          print('All JSON files are valid.')
+          PY
