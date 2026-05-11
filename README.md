@@ -1,5 +1,9 @@
 # Doloffer Guide
 
+![GitHub stars](https://img.shields.io/github/stars/Doloffer-g/guide)
+![GitHub last commit](https://img.shields.io/github/last-commit/Doloffer-g/guide)
+![GitHub license](https://img.shields.io/github/license/Doloffer-g/guide)
+
 面向中文用户的数字订阅与 AI 工具指南，整理 ChatGPT、Claude、Gemini、Midjourney、Poe、Grok、Netflix、YouTube Premium、Spotify 等服务的订阅方式、常见问题、风险提示和避坑信息。
 
 > 本项目优先整理公开信息、官方资料和可核验内容，不推荐来源不明的共享账号、异常低价账号或高风险代开服务。  
