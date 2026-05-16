@@ -1,25 +1,35 @@
 {
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-05-16",
   "resources": [
     {
-      "title": "AI 工具订阅指南",
-      "url": "https://github.com/Doloffer/ai-subscription-guide",
-      "category": "ai"
+      "title": "DolOffer official website",
+      "url": "https://doloffer.com/",
+      "category": "official"
     },
     {
-      "title": "流媒体订阅指南",
-      "url": "https://github.com/Doloffer/streaming-subscription-guide",
-      "category": "streaming"
+      "title": "Affiliate program overview",
+      "url": "docs/affiliate-program.md",
+      "category": "affiliate"
     },
     {
-      "title": "订阅价格数据仓库",
-      "url": "https://github.com/Doloffer/subscription-price-tracker",
-      "category": "data"
+      "title": "Creator kit",
+      "url": "docs/creator-kit.md",
+      "category": "creator"
     },
     {
-      "title": "数字订阅避坑指南",
-      "url": "sections/risk-guide.md",
-      "category": "risk"
+      "title": "Product overview",
+      "url": "docs/products/overview.md",
+      "category": "products"
+    },
+    {
+      "title": "Promotion rules",
+      "url": "docs/policies/promotion-rules.md",
+      "category": "policy"
+    },
+    {
+      "title": "Disclosure policy",
+      "url": "DISCLOSURE.md",
+      "category": "policy"
     }
   ]
 }

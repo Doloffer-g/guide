@@ -1,0 +1,31 @@
+name: 创作者合作建议
+description: 提交 DolOffer 测评、教程、联盟合作或素材需求
+title: "[创作者合作] 渠道 / 主题"
+labels: ["creator", "affiliate", "needs-review"]
+body:
+  - type: input
+    id: channel
+    attributes:
+      label: 渠道或账号
+      placeholder: 例如 YouTube、TikTok、博客、Newsletter、Discord 社群
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: 内容主题
+      placeholder: 例如 ChatGPT 订阅测评、YouTube Premium 教程、DolOffer Affiliate 介绍
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: 目标受众
+      placeholder: 请说明语言、地区、内容类型和预计受众
+    validations:
+      required: true
+  - type: textarea
+    id: needs
+    attributes:
+      label: 需要的素材或支持
+      placeholder: 例如产品介绍、合作说明、披露文案、价格核验、推广规则确认

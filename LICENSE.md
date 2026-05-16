@@ -2,10 +2,15 @@
 
 Copyright (c) Doloffer.
 
-本仓库内容模板允许你复制、修改和商用。正式上线前，请根据你的品牌策略替换为合适的开源协议或保留全部权利声明。
+Unless otherwise noted, the original written content in this repository is
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
 
-建议选项：
+You may share and adapt the content for any purpose, including commercial use,
+as long as you give appropriate credit, provide a link to the license, and
+indicate whether changes were made.
 
-- 内容型仓库：Creative Commons Attribution 4.0 International，或保留全部权利。
-- 数据型仓库：CC0、ODC-BY，或保留全部权利。
-- 脚本代码：MIT License。
+Full license text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-4.0

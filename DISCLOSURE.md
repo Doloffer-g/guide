@@ -1,13 +1,24 @@
-# 合作与优惠链接披露
+# Disclosure
 
-本项目可能包含合作链接、优惠链接、联盟链接或品牌合作入口。
+This repository may include DolOffer affiliate links, referral links, promo code
+references, sponsored materials, creator resources, or brand partnership
+information.
 
-如果你通过这些链接购买服务，我们可能获得佣金或其他形式的合作收益。这不会影响我们的内容原则：
+If a user purchases through an affiliate link or promo code, DolOffer or the
+creator may receive commission, bonus time, account credit, or other commercial
+benefits. This does not change the standards for public materials:
 
-- 优先展示官方信息、公开资料和可核验来源。
-- 标注最近核验日期，避免把过期信息伪装成最新信息。
-- 明确提示账号、支付、地区、隐私、退款和封禁风险。
-- 不推荐来源不明、明显违规、黑卡、盗刷、虚假代开或高风险账号服务。
-- 价格、套餐、功能和地区可用性请以平台官方页面为准。
+- claims should be based on DolOffer's live website or verifiable public
+  information;
+- prices, plans, supported regions, refunds, and delivery rules should include a
+  review date when mentioned;
+- third-party product names and trademarks belong to their respective owners;
+- creators should disclose sponsored, affiliate, or paid relationships clearly;
+- no content should encourage fraud, fake traffic, self-referrals, refund abuse,
+  platform impersonation, or hidden advertising.
 
-如果发现信息错误、链接失效或披露不充分，请通过 Issue 或 Pull Request 反馈。
+DolOffer does not recommend publishing personal affiliate links or discount codes
+on coupon-only websites. Promotion should prioritize useful reviews, tutorials,
+comparisons, and audience education.
+
+Questions about partnership wording can be directed to `Partnership@doloffer.com`.

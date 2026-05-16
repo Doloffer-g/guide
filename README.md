@@ -1,132 +1,111 @@
-# Doloffer Guide
+# DolOffer Official Affiliate & Creator Resources
 
 ![GitHub stars](https://img.shields.io/github/stars/Doloffer-g/guide)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Doloffer-g/guide)
 ![GitHub license](https://img.shields.io/github/license/Doloffer-g/guide)
 
-面向中文用户的数字订阅与 AI 工具指南，整理 ChatGPT、Claude、Gemini、Midjourney、Poe、Grok、Netflix、YouTube Premium、Spotify 等服务的订阅方式、常见问题、风险提示和避坑信息。
+DolOffer is a digital subscription sharing and recharge platform for streaming,
+AI, music, productivity, cloud storage, and learning products.
 
-> 本项目优先整理公开信息、官方资料和可核验内容，不推荐来源不明的共享账号、异常低价账号或高风险代开服务。  
-> 最近更新：2026-05-09
+This repository is the public resource hub for creators, affiliates, reviewers,
+and partners who want to understand, introduce, or promote DolOffer responsibly.
+It complements the website at [doloffer.com](https://doloffer.com/) with
+search-friendly, reusable, and verifiable public materials.
 
----
+> Last reviewed from Hong Kong access: 2026-05-16
+> Source of truth for purchases, prices, availability, refunds, and account
+> status is always [doloffer.com](https://doloffer.com/).
 
-## 快速入口
+## Quick Links
 
-- [AI 工具订阅指南](https://github.com/Doloffer/ai-subscription-guide)
-- [流媒体订阅指南](https://github.com/Doloffer/streaming-subscription-guide)
-- [订阅价格数据仓库](https://github.com/Doloffer/subscription-price-tracker)
-- [风险提示与避坑指南](sections/risk-guide.md)
-- [术语解释](sections/glossary.md)
-- [常见问题 FAQ](sections/faq.md)
+- [Official website](https://doloffer.com/)
+- [Affiliate program](docs/affiliate-program.md)
+- [Creator kit](docs/creator-kit.md)
+- [Product overview](docs/products/overview.md)
+- [Promotion rules](docs/policies/promotion-rules.md)
+- [Disclosure policy](DISCLOSURE.md)
+- [Contributing](CONTRIBUTING.md)
 
----
+## What DolOffer Offers
 
-## 为什么维护这个项目？
+DolOffer helps users access selected digital subscriptions through shared plans,
+recharge services, private accounts, and invite-based family or group plans. The
+public product catalog currently includes categories such as:
 
-很多数字订阅服务存在地区限制、支付失败、账号共享风险、退款困难、隐私泄露、售后不透明等问题。
+- AI tools: ChatGPT, GPT recharge, Claude recharge.
+- Streaming and video: YouTube Premium, Crunchyroll.
+- Music: Spotify, Tidal, Apple Music.
+- Productivity and cloud: Office 365, Notion, iCloud.
+- Learning: Duolingo.
 
-Doloffer Guide 希望通过公开、持续更新的方式，帮助中文用户更安全地了解和选择数字订阅服务。
+Product availability, supported regions, plan length, delivery method, renewal
+rules, and pricing may change. Use the live website before publishing price or
+plan claims.
 
-本项目主要关注：
+## Affiliate And Creator Positioning
 
-- AI 工具订阅
-- 流媒体订阅
-- 音乐订阅
-- 生产力工具订阅
-- 价格变化与订阅信息
-- 账号、支付、地区与隐私风险
-- 常见问题与避坑建议
+DolOffer already supports an affiliate workflow on the website:
 
----
+- affiliate application and partner onboarding;
+- unique affiliate links and promo codes;
+- commission tracking and order attribution;
+- payout and transfer records;
+- partner support through a dedicated manager.
 
-## AI 工具
+This repository turns those website features into reusable public materials:
 
-- [ChatGPT 订阅指南](https://github.com/Doloffer/ai-subscription-guide/blob/main/docs/chatgpt.md)
-- [Claude 订阅指南](https://github.com/Doloffer/ai-subscription-guide/blob/main/docs/claude.md)
-- [Gemini 订阅指南](https://github.com/Doloffer/ai-subscription-guide/blob/main/docs/gemini.md)
-- [Midjourney 订阅指南](https://github.com/Doloffer/ai-subscription-guide/blob/main/docs/midjourney.md)
-- [Poe 订阅指南](https://github.com/Doloffer/ai-subscription-guide/blob/main/docs/poe.md)
-- [Grok 订阅指南](https://github.com/Doloffer/ai-subscription-guide/blob/main/docs/grok.md)
+- explainers that creators can cite;
+- product summaries for reviews and comparison posts;
+- disclosure language for sponsored or affiliate content;
+- rules that reduce misleading promotions and low-quality coupon spam;
+- static pages that can be indexed by GitHub and search engines.
 
----
+## Recommended Content Angles
 
-## 流媒体与音乐
+Creators and partners can focus on high-intent topics:
 
-- [Netflix 订阅指南](https://github.com/Doloffer/streaming-subscription-guide/blob/main/docs/netflix.md)
-- [YouTube Premium 订阅指南](https://github.com/Doloffer/streaming-subscription-guide/blob/main/docs/youtube-premium.md)
-- [Disney+ 订阅指南](https://github.com/Doloffer/streaming-subscription-guide/blob/main/docs/disney-plus.md)
-- [Spotify 订阅指南](https://github.com/Doloffer/streaming-subscription-guide/blob/main/docs/spotify.md)
-- [HBO / Max 订阅指南](https://github.com/Doloffer/streaming-subscription-guide/blob/main/docs/hbo.md)
+- How DolOffer works for shared subscriptions.
+- DolOffer affiliate program and commission basics.
+- ChatGPT subscription sharing and recharge options.
+- YouTube Premium family or recharge options.
+- Spotify, Tidal, Apple Music, iCloud, Office 365, Notion, Duolingo, and
+  Crunchyroll product explainers.
+- Refund, support, renewal, and account-safety expectations.
+- Comparison between official individual subscriptions and shared-plan savings,
+  with clear risk and limitation notes.
 
----
+## Trust And Compliance Notes
 
-## 避坑指南
+Do not present DolOffer as an official partner of third-party platforms unless
+that relationship is explicitly confirmed by DolOffer and the relevant platform.
+All third-party product names, trademarks, and service marks belong to their
+respective owners.
 
-在购买或使用任何数字订阅服务前，建议先了解以下风险：
+Affiliates should avoid:
 
-- 不建议购买来源不明的共享账号。
-- 不建议购买明显低于正常价格的账号。
-- 不建议向陌生商家提供邮箱、密码、验证码或支付凭证。
-- 不建议把重要资料放在第三方代开或共享账号里。
-- 不建议相信“永久稳定”“无限额度”“保证不封”等承诺。
-- 价格、套餐、地区政策和可用性可能随官方平台调整而变化，请以官方信息为准。
+- fake traffic, self-referrals, or simulated purchases;
+- copying DolOffer branding to impersonate the official website;
+- posting personal affiliate links or codes on coupon-only websites;
+- promising guaranteed access, unlimited usage, or permanent availability;
+- hiding paid partnership, sponsorship, or affiliate relationships.
 
-详细内容请查看：
+See [Promotion Rules](docs/policies/promotion-rules.md) and
+[Disclosure](DISCLOSURE.md) before publishing.
 
-- [风险提示与避坑指南](sections/risk-guide.md)
-- [常见问题 FAQ](sections/faq.md)
+## Repository Structure
 
----
-
-## 内容分区
-
-- [AI 工具](sections/ai-tools.md)
-- [流媒体](sections/streaming.md)
-- [音乐订阅](sections/music.md)
-- [生产力工具](sections/productivity.md)
-- [价格数据](sections/price-data.md)
-- [避坑指南](sections/risk-guide.md)
-- [术语解释](sections/glossary.md)
-- [常见问题](sections/faq.md)
-
----
-
-## 官网
-
-Doloffer 官网：
-
-https://doloffer.com/
-
----
-
-## 合作与优惠链接披露
-
-本仓库可能包含合作链接、优惠链接或品牌合作入口。
-
-我们会尽量优先展示公开信息、官方资料和可核验内容，并对账号、支付、地区、退款、隐私和封禁等风险进行提示。
-
-详见：
-
-[DISCLOSURE.md](DISCLOSURE.md)
-
----
-
-## Contributing
-
-欢迎提交 Issue 或 Pull Request，补充以下内容：
-
-- 新的订阅服务信息
-- 官方价格或套餐变化
-- 地区限制与支付问题
-- 账号安全与隐私风险
-- 常见问题与避坑经验
-- 文档错误或失效链接
-
-如果你发现信息过期、链接失效或有新的订阅风险，欢迎提交 Issue 或 Pull Request。
-
----
+```text
+docs/
+  affiliate-program.md          Public affiliate program overview
+  creator-kit.md                Review angles, sample copy, and scripts
+  products/overview.md          Clean product-category overview
+  policies/promotion-rules.md   Rules for safe promotion
+data/
+  products.json                 Clean public product snapshot
+  resources.json                Public resource index
+```
 
 ## License
 
-本项目仅用于信息整理和学习参考。具体订阅价格、服务条款、可用地区和退款政策，请以对应平台的官方说明为准。
+Unless otherwise noted, original written content in this repository is licensed
+under [CC BY 4.0](LICENSE.md).

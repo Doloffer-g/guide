@@ -6,27 +6,120 @@ on:
   schedule:
     - cron: "0 2 * * 1"
 
+permissions:
+  contents: read
+
 jobs:
-  validate-json:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Validate JSON files
+      - name: Validate repository content
         run: |
           python - <<'PY'
           import json
+          import re
           from pathlib import Path
+
           errors = []
-          for path in Path('.').rglob('*.json'):
+
+          def add_error(message):
+              errors.append(message)
+
+          def read_json(path):
               try:
-                  json.loads(path.read_text(encoding='utf-8'))
-              except Exception as e:
-                  errors.append(f"{path}: {e}")
+                  return json.loads(path.read_text(encoding='utf-8'))
+              except Exception as exc:
+                  add_error(f"{path}: invalid JSON: {exc}")
+                  return None
+
+          for path in Path('.').rglob('*.json'):
+              read_json(path)
+
+          resources_path = Path('data/resources.json')
+          resources_data = read_json(resources_path)
+          if resources_data is not None:
+              if not isinstance(resources_data, dict):
+                  add_error(f"{resources_path}: root must be an object")
+              else:
+                  last_updated = resources_data.get('last_updated')
+                  if not isinstance(last_updated, str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', last_updated):
+                      add_error(f"{resources_path}: last_updated must use YYYY-MM-DD")
+
+                  resources = resources_data.get('resources')
+                  if not isinstance(resources, list) or not resources:
+                      add_error(f"{resources_path}: resources must be a non-empty array")
+                  else:
+                      for index, item in enumerate(resources):
+                          prefix = f"{resources_path}: resources[{index}]"
+                          if not isinstance(item, dict):
+                              add_error(f"{prefix} must be an object")
+                              continue
+                          for key in ('title', 'url', 'category'):
+                              if not isinstance(item.get(key), str) or not item[key].strip():
+                                  add_error(f"{prefix}.{key} must be a non-empty string")
+                          url = item.get('url')
+                          if isinstance(url, str) and not re.match(r'^[a-z][a-z0-9+.-]*:', url, re.I):
+                              relative_path = url.split('#', 1)[0]
+                              if relative_path:
+                                  resolved = Path(relative_path).resolve()
+                                  root = Path('.').resolve()
+                                  if root not in (resolved, *resolved.parents) or not resolved.exists():
+                                      add_error(f"{prefix}.url points to missing local path: {url}")
+
+          products_path = Path('data/products.json')
+          products_data = read_json(products_path)
+          if products_data is not None:
+              if not isinstance(products_data, dict):
+                  add_error(f"{products_path}: root must be an object")
+              else:
+                  last_reviewed = products_data.get('last_reviewed')
+                  if not isinstance(last_reviewed, str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', last_reviewed):
+                      add_error(f"{products_path}: last_reviewed must use YYYY-MM-DD")
+                  products = products_data.get('products')
+                  if not isinstance(products, list) or not products:
+                      add_error(f"{products_path}: products must be a non-empty array")
+                  else:
+                      for index, item in enumerate(products):
+                          prefix = f"{products_path}: products[{index}]"
+                          if not isinstance(item, dict):
+                              add_error(f"{prefix} must be an object")
+                              continue
+                          for key in ('name', 'category', 'content_angle'):
+                              if not isinstance(item.get(key), str) or not item[key].strip():
+                                  add_error(f"{prefix}.{key} must be a non-empty string")
+                          for key in ('markets', 'formats'):
+                              if not isinstance(item.get(key), list) or not item[key]:
+                                  add_error(f"{prefix}.{key} must be a non-empty array")
+                          price = item.get('starting_price_usd')
+                          if not isinstance(price, (int, float)) or price < 0:
+                              add_error(f"{prefix}.starting_price_usd must be a non-negative number")
+
+          markdown_link = re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
+          for path in Path('.').rglob('*.md'):
+              if '.git' in path.parts:
+                  continue
+              text = path.read_text(encoding='utf-8')
+              for match in markdown_link.finditer(text):
+                  target = match.group(1).strip()
+                  if not target or target.startswith(('#', 'mailto:')):
+                      continue
+                  target = target.split()[0].strip('<>')
+                  if re.match(r'^[a-z][a-z0-9+.-]*:', target, re.I):
+                      continue
+                  relative_path = target.split('#', 1)[0]
+                  if not relative_path:
+                      continue
+                  resolved = (path.parent / relative_path).resolve()
+                  root = Path('.').resolve()
+                  if root not in (resolved, *resolved.parents) or not resolved.exists():
+                      add_error(f"{path}: missing link target {target}")
+
           if errors:
               print('\n'.join(errors))
               raise SystemExit(1)
-          print('All JSON files are valid.')
+          print('Repository content validation passed.')
           PY

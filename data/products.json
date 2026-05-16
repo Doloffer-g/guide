@@ -1,0 +1,95 @@
+{
+  "last_reviewed": "2026-05-16",
+  "source": "https://doloffer.com/",
+  "note": "Clean public snapshot for creator and affiliate materials. Prices and availability change; verify live website before publishing.",
+  "products": [
+    {
+      "name": "ChatGPT",
+      "category": "ai",
+      "markets": ["KR"],
+      "formats": ["shared slot", "private", "recharge"],
+      "starting_price_usd": 14.99,
+      "content_angle": "AI productivity subscription access, shared slots, private options, and recharge options."
+    },
+    {
+      "name": "Claude recharge",
+      "category": "ai",
+      "markets": ["HK", "US", "MO"],
+      "formats": ["recharge"],
+      "starting_price_usd": 17.99,
+      "content_angle": "Official-style recharge positioning for Claude Pro access with higher usage limits."
+    },
+    {
+      "name": "YouTube Premium",
+      "category": "streaming",
+      "markets": ["HK", "US", "MO", "KR"],
+      "formats": ["family group", "recharge"],
+      "starting_price_usd": 22.99,
+      "content_angle": "Family group and recharge options, with region and activation guidance."
+    },
+    {
+      "name": "Spotify",
+      "category": "music",
+      "markets": ["HK", "US", "MO", "KR"],
+      "formats": ["private slot"],
+      "starting_price_usd": 29.99,
+      "content_angle": "Ad-free music subscription with offline listening and stable renewal positioning."
+    },
+    {
+      "name": "Tidal",
+      "category": "music",
+      "markets": ["HK", "US", "MO", "KR"],
+      "formats": ["private account"],
+      "starting_price_usd": 2.99,
+      "content_angle": "HiFi and lossless music access for audio-focused users."
+    },
+    {
+      "name": "Apple Music",
+      "category": "music",
+      "markets": ["HK", "US", "MO"],
+      "formats": ["family group"],
+      "starting_price_usd": 15.99,
+      "content_angle": "Family membership access with ad-free music, offline listening, and lossless audio."
+    },
+    {
+      "name": "iCloud",
+      "category": "cloud",
+      "markets": ["HK", "US", "MO", "KR"],
+      "formats": ["family group"],
+      "starting_price_usd": 18.99,
+      "content_angle": "Shared cloud storage options such as 400GB and 1TB plans."
+    },
+    {
+      "name": "Office 365",
+      "category": "productivity",
+      "markets": ["HK", "US", "MO", "KR"],
+      "formats": ["family group"],
+      "starting_price_usd": 13.99,
+      "content_angle": "Office apps and family sharing for productivity users."
+    },
+    {
+      "name": "Notion",
+      "category": "productivity",
+      "markets": ["KR"],
+      "formats": ["education plus"],
+      "starting_price_usd": 11.88,
+      "content_angle": "Notion workspace features for study, project management, and knowledge organization."
+    },
+    {
+      "name": "Duolingo",
+      "category": "learning",
+      "markets": ["HK", "US", "MO", "KR"],
+      "formats": ["family group"],
+      "starting_price_usd": 10.0,
+      "content_angle": "Ad-free language learning with unlimited hearts and practice features."
+    },
+    {
+      "name": "Crunchyroll",
+      "category": "streaming",
+      "markets": ["HK", "US", "MO", "KR"],
+      "formats": ["shared account"],
+      "starting_price_usd": 10.0,
+      "content_angle": "Anime streaming access with ad-free viewing and broad content library."
+    }
+  ]
+}

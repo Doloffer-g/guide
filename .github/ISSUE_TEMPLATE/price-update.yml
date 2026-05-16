@@ -1,13 +1,13 @@
-name: 价格或套餐更新
-description: 反馈某个平台的价格、套餐、地区或政策变化
-title: "[价格更新] 平台名 / 地区 / 套餐名"
+name: 产品或套餐更新
+description: 反馈 DolOffer 产品、套餐、地区、价格或政策变化
+title: "[产品更新] 产品名 / 地区 / 套餐名"
 labels: ["price-update", "needs-review"]
 body:
   - type: input
     id: provider
     attributes:
-      label: 平台 / 产品
-      placeholder: 例如 ChatGPT、Netflix、Spotify
+      label: DolOffer 产品
+      placeholder: 例如 ChatGPT、YouTube Premium、Spotify、iCloud
     validations:
       required: true
   - type: input
@@ -35,7 +35,7 @@ body:
     id: source
     attributes:
       label: 来源链接
-      placeholder: 官方价格页或公开说明链接
+      placeholder: DolOffer 产品页、官网页面或公开说明链接
     validations:
       required: true
   - type: textarea

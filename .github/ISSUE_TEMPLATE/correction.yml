@@ -1,5 +1,5 @@
 name: 内容纠错
-description: 反馈错别字、过期内容、链接失效或风险提示不足
+description: 反馈错别字、过期内容、链接失效、披露不足或推广规则问题
 title: "[纠错] 简要描述问题"
 labels: ["correction", "needs-review"]
 body:
@@ -7,7 +7,7 @@ body:
     id: page
     attributes:
       label: 页面或文件路径
-      placeholder: 例如 docs/chatgpt.md
+      placeholder: 例如 docs/affiliate-program.md 或 docs/products/overview.md
     validations:
       required: true
   - type: textarea

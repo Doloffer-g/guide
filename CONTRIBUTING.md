@@ -1,35 +1,43 @@
-# 贡献指南
+# Contributing
 
-欢迎提交价格更新、链接失效、政策变化、错别字修正和 FAQ 补充。
+This repository is maintained as DolOffer's public affiliate, creator, and
+brand-resource hub. Contributions should improve clarity, accuracy, compliance,
+or partner usefulness.
 
-## 提交价格更新时请提供
+## Useful Contributions
 
-- 产品名或平台名
-- 地区
-- 套餐名
-- 官方页面链接
-- 你看到的价格和币种
-- 最近核验日期
-- 备注，例如是否含税、是否为年付、是否为促销价
+- Product summary corrections based on the live DolOffer website.
+- Broken link fixes.
+- Safer wording for affiliate, refund, renewal, and delivery claims.
+- Creator topic suggestions for reviews, tutorials, or comparison articles.
+- Policy clarifications for disclosure, sponsorship, coupons, or promotion.
+- Localization improvements for English, Chinese, Traditional Chinese, or Korean
+  materials.
 
-## 不接受的内容
+## Please Include
 
-- 盗号、黑卡、盗刷、绕风控、虚假代开教程
-- 鼓励违反平台条款的操作步骤
-- 无来源的“全网最低”“永久稳定”等广告文案
-- 要求用户提供密码、验证码、支付凭证等敏感信息的内容
+- The page or file path you want to update.
+- The source URL or screenshot context, when relevant.
+- The review date in `YYYY-MM-DD` format.
+- A short note explaining why the update matters.
 
-## 内容格式
+## Not Accepted
 
-建议每篇指南都包含：
+- Fake reviews, fake traffic, self-referral instructions, or fabricated order
+  results.
+- Claims that DolOffer is an official partner of a third-party platform unless
+  DolOffer has explicitly approved the wording.
+- Coupon-only spam, copied affiliate pages, or low-quality keyword stuffing.
+- Requests to bypass platform rules, abuse refunds, or hide affiliate
+  relationships.
+- Instructions asking users to share passwords, verification codes, payment
+  credentials, or other sensitive information with unknown parties.
 
-```text
-适合谁
-不适合谁
-价格与套餐对比
-使用前风险提示
-常见问题
-更新日志
-合作/优惠链接披露
-官网 CTA
-```
+## Pull Request Checklist
+
+- [ ] The content is based on the live website or a verifiable public source.
+- [ ] The review date is included when prices, plans, or availability are
+      mentioned.
+- [ ] Affiliate or sponsorship relationships are disclosed clearly.
+- [ ] Markdown internal links work.
+- [ ] JSON files remain valid.
