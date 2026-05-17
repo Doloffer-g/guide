@@ -2,7 +2,7 @@
 
 ## 2026-05-17
 
-- 新增 GitHub Pages 静态资源站点，并添加自动部署 workflow。
+- 新增 GitHub Pages 静态资源站点，并添加自动部署 workflow；仓库设置中需启用 GitHub Actions 作为 Pages 来源。
 - 新增创作者素材模板，覆盖 YouTube、短视频、博客、X、Newsletter、Telegram 和 Discord。
 - 新增短链与 UTM 追踪指南，用于红人渠道、内容资产和订单归因管理。
 - 优化 README 首屏入口，把仓库定位为官方 Creator And Affiliate Hub。

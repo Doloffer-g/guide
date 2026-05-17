@@ -31,7 +31,9 @@ collaboration:
   [Promotion Rules](docs/policies/promotion-rules.md).
 
 The GitHub Pages resource hub is prepared at
-[doloffer-g.github.io/guide](https://doloffer-g.github.io/guide/).
+[doloffer-g.github.io/guide](https://doloffer-g.github.io/guide/). If it returns
+404, enable GitHub Pages in the repository settings and set the source to
+**GitHub Actions**.
 
 ## Quick Links
 
