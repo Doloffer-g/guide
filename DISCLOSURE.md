@@ -19,6 +19,6 @@ benefits. This does not change the standards for public materials:
 
 DolOffer does not recommend publishing personal affiliate links or discount codes
 on coupon-only websites. Promotion should prioritize useful reviews, tutorials,
-comparisons, and audience education.
+buying guides, product explainers, and audience education.
 
 Questions about partnership wording can be directed to `Partnership@doloffer.com`.

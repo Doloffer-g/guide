@@ -16,11 +16,31 @@ search-friendly, reusable, and verifiable public materials.
 > Source of truth for purchases, prices, availability, refunds, and account
 > status is always [doloffer.com](https://doloffer.com/).
 
+## Start Here
+
+Use this repository as the official public workspace for DolOffer creator
+collaboration:
+
+- **Creators and reviewers:** start with the [Creator Kit](docs/creator-kit.md)
+  and [Creator Templates](docs/creator-templates.md).
+- **Affiliate partners:** review the
+  [Affiliate Program](docs/affiliate-program.md), then follow the
+  [Short Links and UTM Guide](docs/tracking/short-links-and-utm.md).
+- **Editors and operators:** keep claims aligned with the
+  [Product Overview](docs/products/overview.md) and
+  [Promotion Rules](docs/policies/promotion-rules.md).
+
+The GitHub Pages resource hub is prepared at
+[doloffer-g.github.io/guide](https://doloffer-g.github.io/guide/).
+
 ## Quick Links
 
 - [Official website](https://doloffer.com/)
+- [GitHub Pages resource hub](https://doloffer-g.github.io/guide/)
 - [Affiliate program](docs/affiliate-program.md)
 - [Creator kit](docs/creator-kit.md)
+- [Creator templates](docs/creator-templates.md)
+- [Short links and UTM guide](docs/tracking/short-links-and-utm.md)
 - [Product overview](docs/products/overview.md)
 - [Promotion rules](docs/policies/promotion-rules.md)
 - [Disclosure policy](DISCLOSURE.md)
@@ -55,7 +75,7 @@ DolOffer already supports an affiliate workflow on the website:
 This repository turns those website features into reusable public materials:
 
 - explainers that creators can cite;
-- product summaries for reviews and comparison posts;
+- product summaries for reviews, tutorials, and buying guides;
 - disclosure language for sponsored or affiliate content;
 - rules that reduce misleading promotions and low-quality coupon spam;
 - static pages that can be indexed by GitHub and search engines.
@@ -71,8 +91,18 @@ Creators and partners can focus on high-intent topics:
 - Spotify, Tidal, Apple Music, iCloud, Office 365, Notion, Duolingo, and
   Crunchyroll product explainers.
 - Refund, support, renewal, and account-safety expectations.
-- Comparison between official individual subscriptions and shared-plan savings,
-  with clear risk and limitation notes.
+- Savings explainers that compare subscription formats, with clear risk and
+  limitation notes.
+
+## Creator Workflow
+
+1. Choose a product angle from the [Product Overview](docs/products/overview.md).
+2. Draft content with the [Creator Templates](docs/creator-templates.md).
+3. Add a clear affiliate disclosure near the first link or promo code.
+4. Build tracked links with the
+   [Short Links and UTM Guide](docs/tracking/short-links-and-utm.md).
+5. Verify pricing, region support, refund rules, and delivery method on
+   [doloffer.com](https://doloffer.com/) before publishing.
 
 ## Trust And Compliance Notes
 
@@ -98,8 +128,13 @@ See [Promotion Rules](docs/policies/promotion-rules.md) and
 docs/
   affiliate-program.md          Public affiliate program overview
   creator-kit.md                Review angles, sample copy, and scripts
+  creator-templates.md          Ready-to-adapt creator copy blocks
   products/overview.md          Clean product-category overview
   policies/promotion-rules.md   Rules for safe promotion
+  tracking/short-links-and-utm.md  Short-link and attribution guide
+site/
+  index.html                    Static GitHub Pages resource hub
+  styles.css                    Static site styles
 data/
   products.json                 Clean public product snapshot
   resources.json                Public resource index

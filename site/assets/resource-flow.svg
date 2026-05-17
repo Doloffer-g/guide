@@ -1,0 +1,52 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DolOffer creator resource flow</title>
+  <desc id="desc">A visual map showing how creators move from content ideas to tracked links, DolOffer pages, affiliate dashboard reporting, and safer public materials.</desc>
+  <rect width="960" height="560" rx="0" fill="#F7F3EA"/>
+  <rect x="56" y="54" width="848" height="452" rx="8" fill="#FFFFFF" stroke="#D8D1C4" stroke-width="2"/>
+  <circle cx="96" cy="96" r="12" fill="#E56F4A"/>
+  <circle cx="132" cy="96" r="12" fill="#2F7D6A"/>
+  <circle cx="168" cy="96" r="12" fill="#D8A63A"/>
+  <text x="56" y="36" fill="#2D2A26" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">DolOffer Creator And Affiliate Hub</text>
+  <text x="96" y="156" fill="#2D2A26" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Plan, publish, track</text>
+  <text x="96" y="190" fill="#5C554A" font-family="Inter, Arial, sans-serif" font-size="18">Official public resources for responsible creator campaigns.</text>
+
+  <g>
+    <rect x="96" y="240" width="160" height="112" rx="8" fill="#EAF4EF" stroke="#7BB9A8" stroke-width="2"/>
+    <text x="122" y="284" fill="#174F43" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Creator</text>
+    <text x="122" y="314" fill="#315D54" font-family="Inter, Arial, sans-serif" font-size="14">review, guide,</text>
+    <text x="122" y="334" fill="#315D54" font-family="Inter, Arial, sans-serif" font-size="14">video, community</text>
+  </g>
+
+  <path d="M270 296H350" stroke="#B8A777" stroke-width="4" stroke-linecap="round"/>
+  <path d="M340 284L356 296L340 308" stroke="#B8A777" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="372" y="240" width="180" height="112" rx="8" fill="#FFF6DA" stroke="#D8A63A" stroke-width="2"/>
+    <text x="400" y="284" fill="#6D4B00" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Short link</text>
+    <text x="400" y="314" fill="#745C24" font-family="Inter, Arial, sans-serif" font-size="14">UTM, promo code,</text>
+    <text x="400" y="334" fill="#745C24" font-family="Inter, Arial, sans-serif" font-size="14">channel tracking</text>
+  </g>
+
+  <path d="M566 296H646" stroke="#B8A777" stroke-width="4" stroke-linecap="round"/>
+  <path d="M636 284L652 296L636 308" stroke="#B8A777" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="668" y="240" width="196" height="112" rx="8" fill="#FCEEE9" stroke="#E56F4A" stroke-width="2"/>
+    <text x="696" y="284" fill="#7C2D18" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">DolOffer</text>
+    <text x="696" y="314" fill="#704236" font-family="Inter, Arial, sans-serif" font-size="14">product page, order,</text>
+    <text x="696" y="334" fill="#704236" font-family="Inter, Arial, sans-serif" font-size="14">affiliate dashboard</text>
+  </g>
+
+  <g>
+    <rect x="170" y="398" width="192" height="58" rx="8" fill="#F8FAFC" stroke="#C6CED8"/>
+    <text x="196" y="433" fill="#344054" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Clear disclosure</text>
+  </g>
+  <g>
+    <rect x="392" y="398" width="192" height="58" rx="8" fill="#F8FAFC" stroke="#C6CED8"/>
+    <text x="418" y="433" fill="#344054" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Verified claims</text>
+  </g>
+  <g>
+    <rect x="614" y="398" width="192" height="58" rx="8" fill="#F8FAFC" stroke="#C6CED8"/>
+    <text x="640" y="433" fill="#344054" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Order attribution</text>
+  </g>
+</svg>

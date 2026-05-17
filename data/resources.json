@@ -1,9 +1,14 @@
 {
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-17",
   "resources": [
     {
       "title": "DolOffer official website",
       "url": "https://doloffer.com/",
+      "category": "official"
+    },
+    {
+      "title": "GitHub Pages creator hub",
+      "url": "https://doloffer-g.github.io/guide/",
       "category": "official"
     },
     {
@@ -15,6 +20,16 @@
       "title": "Creator kit",
       "url": "docs/creator-kit.md",
       "category": "creator"
+    },
+    {
+      "title": "Creator templates",
+      "url": "docs/creator-templates.md",
+      "category": "creator"
+    },
+    {
+      "title": "Short links and UTM guide",
+      "url": "docs/tracking/short-links-and-utm.md",
+      "category": "tracking"
     },
     {
       "title": "Product overview",

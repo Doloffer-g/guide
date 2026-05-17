@@ -1,7 +1,7 @@
 # DolOffer Creator Kit
 
 This creator kit gives partners a clean starting point for reviews, tutorials,
-short videos, newsletters, and comparison posts.
+short videos, newsletters, community posts, and product explainers.
 
 ## Core Message
 
@@ -25,6 +25,16 @@ Use plain wording:
 - Order, renewal, refund, and support flows inside the website.
 - Multilingual positioning for English, Traditional Chinese, Simplified Chinese,
   and Korean audiences.
+
+## Ready-To-Use Materials
+
+- [Creator Templates](creator-templates.md): YouTube descriptions, short-video
+  scripts, blog outlines, X threads, Telegram/Discord posts, and newsletter
+  blocks.
+- [Short Links and UTM Guide](tracking/short-links-and-utm.md): branded link
+  structure, UTM naming, and reporting rules.
+- [Promotion Rules](policies/promotion-rules.md): required disclosures and
+  claims to avoid.
 
 ## Safe Review Angles
 

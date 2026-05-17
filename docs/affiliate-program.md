@@ -39,11 +39,24 @@ has confirmed the wording for your channel.
 ## Recommended Promotion Channels
 
 - YouTube and short-form video reviews.
-- Blogs, newsletters, and comparison articles.
+- Blogs, newsletters, buying guides, and educational product explainers.
 - Community groups where subscription tools are relevant.
 - Tutorials for ChatGPT, YouTube Premium, Spotify, iCloud, Office 365, Notion,
   Duolingo, and similar products.
 - Product roundups that explain tradeoffs, limitations, and refund expectations.
+
+## Tracking Links
+
+Approved affiliates should use a unique tracked link for each major channel or
+content asset. This makes it easier to understand which videos, posts,
+newsletters, or communities produce useful traffic.
+
+Use the [Short Links and UTM Guide](tracking/short-links-and-utm.md) for:
+
+- branded short-link naming;
+- UTM source, medium, campaign, and content rules;
+- click, registration, and order reporting separation;
+- bot and preview-click filtering notes.
 
 ## Not Supported
 

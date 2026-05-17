@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://doloffer-g.github.io/guide/sitemap.xml

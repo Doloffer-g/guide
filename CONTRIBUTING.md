@@ -9,8 +9,10 @@ or partner usefulness.
 - Product summary corrections based on the live DolOffer website.
 - Broken link fixes.
 - Safer wording for affiliate, refund, renewal, and delivery claims.
-- Creator topic suggestions for reviews, tutorials, or comparison articles.
+- Creator topic suggestions for reviews, tutorials, buying guides, or product
+  explainers.
 - Policy clarifications for disclosure, sponsorship, coupons, or promotion.
+- Short-link, UTM, or reporting improvements that make attribution clearer.
 - Localization improvements for English, Chinese, Traditional Chinese, or Korean
   materials.
 
